@@ -1,0 +1,59 @@
+.container {
+    margin-bottom: 2rem;
+}
+
+.category-title {
+    font-size: 24px;
+    margin-bottom: 1rem;
+}
+
+.icon-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.icon-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.icon {
+    width: 32px;
+    height: 32px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* New class for icon pairs */
+.icon-pair {
+    display: flex;
+    gap: 5px;
+}
+
+.icon-dog {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAA10lEQVR42mNkYGBgYGRkZGBg+A8I/wPAB1mAkACGD8Bi+HmEB5jMDwVHJxsbGwnRGAGIQJECeDLm5ubOzc4zYLy6/XhJJmJjI1I5I5hPAAuApngFsAi6A7RhIGF0eU1EJAYJHKNMYGhpyiEj0D4hgNBoA5MQJiNwAGIBsxWhN9DRGMwDcwPLAcS6A+FgBMSwvIBSxAklQFgSTwX6QIjRTAfhKYCDpEKSGELQA7qGiPcmZgKwAQLoxM/AwMIVWYFVExGLFhZaEFS8A5ksAwEUQVoAAAAASUVORK5CYII=');
+}
+
+.icon-cat {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAA10lEQVR42mNkYGBgYGRkZGBg+A8I/wPAB1mAkACGD8Bi+HmEB5jMDwVHJxsbGwnRGAGIQJECeDLm5ubOzc4zYLy6/XhJJmJjI1I5I5hPAAuApngFsAi6A7RhIGF0eU1EJAYJHKNMYGhpyiEj0D4hgNBoA5MQJiNwAGIBsxWhN9DRGMwDcwPLAcS6A+FgBMSwvIBSxAklQFgSTwX6QIjRTAfhKYCDpEKSGELQA7qGiPcmZgKwAQLoxM/AwMIVWYFVExGLFhZaEFS8A5ksAwEUQVoAAAAASUVORK5CYII=');
+}
+
+.icon-car {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAA10lEQVR42mNkYGBgYGRkZGBg+A8I/wPAB1mAkACGD8Bi+HmEB5jMDwVHJxsbGwnRGAGIQJECeDLm5ubOzc4zYLy6/XhJJmJjI1I5I5hPAAuApngFsAi6A7RhIGF0eU1EJAYJHKNMYGhpyiEj0D4hgNBoA5MQJiNwAGIBsxWhN9DRGMwDcwPLAcS6A+FgBMSwvIBSxAklQFgSTwX6QIjRTAfhKYCDpEKSGELQA7qGiPcmZgKwAQLoxM/AwMIVWYFVExGLFhZaEFS8A5ksAwEUQVoAAAAASUVORK5CYII=');
+}
+
+.icon-bus {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAA10lEQVR42mNkYGBgYGRkZGBg+A8I/wPAB1mAkACGD8Bi+HmEB5jMDwVHJxsbGwnRGAGIQJECeDLm5ubOzc4zYLy6/XhJJmJjI1I5I5hPAAuApngFsAi6A7RhIGF0eU1EJAYJHKNMYGhpyiEj0D4hgNBoA5MQJiNwAGIBsxWhN9DRGMwDcwPLAcS6A+FgBMSwvIBSxAklQFgSTwX6QIjRTAfhKYCDpEKSGELQA7qGiPcmZgKwAQLoxM/AwMIVWYFVExGLFhZaEFS8A5ksAwEUQVoAAAAASUVORK5CYII=');
+}
+
+.text {
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    margin-top: 5px;
+}
+
