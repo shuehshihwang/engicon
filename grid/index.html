@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flexbox Grid with Base64 Icons and Font Awesome</title>
+    <title>English Vocabulary with Icons</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="time-expressions.css">
 	<link rel="icon" type="image/png" href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAMCAgICAgMCAgIDAwMDBAYEBAQEBAgGBgUGCQgKCgkICQkKDA8MCgsOCwkJDRENDg8QEBEQCgwSExIQEw8QEBD/2wBDAQMDAwQDBAgEBAgQCwkLEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBD/wAARCAAgAB4DAREAAhEBAxEB/8QAGgABAAIDAQAAAAAAAAAAAAAACAUJAAQGB//EADcQAAAEBAMFBQQLAAAAAAAAAAECAwQFBgcRAAgSCRMhIkEVGTGV0xQWOFIYI1ZXYXV2pLG00f/EABkBAAMBAQEAAAAAAAAAAAAAAAIDBAUAAf/EACoRAAEDAwIEBQUAAAAAAAAAAAEAAgMEERIhgQUUMVETFTIzYSJBUnHB/9oADAMBAAIRAxEAPwBNZ4c6Uay4vIRJMhwVi9mOLNRfquH5THQaN9YkLYhRATnMYpvEbABet8X0VGKm7nHQJE03h6DqiJ3n+Zz5pT8pN6mNHyyH5U3MvWd5/mc+aU/KTepjvLIfldzL1YBkzrZNdfaJNZ9nVuxSivaLpiqLJMU0lATMGk2kRGw2NYePTGVWQtglxb0VUEhkbcoL7Vb4gYH+l0P7C+NLhftH9qer9QUBRZ9SlKmsHTmJ5l5JEAKpvizPDYmrEw+sNbfGS5BG1raeGm3XBziTM45bWshjxx1tuonMM8povT/dyo7oUo+9tRHTJsPiKMR0c1+Zfk3fhqAePhbBU+ef1Zb2sukxx0tsm7sw/heQ/P4h/JMZvE/f2T6X0box7T2DReYsy0sQKAw1zEIi+lxsi2atkhUVWUFyvYpShxEcWcMIbE4nv/EqqF3gBHn6KmZT7jpy8rU/zFnNQfkEnwn9lCThQqstP4MaYp3pjMUDhZFCJGdvmJ0kgObgUuoQtcemDZPFIcWuBK8Mbmi5CtU2c8pTHKGWSFN5lhS0PViUQdRNsmqAAY7ZXSKSlugGALh+AgPXGFxF4fPp9lbTAhmq1c22V+otSp3lWttEJmZwmeZTT3CZHg6U1kwMYxBKYSmADAJzgIGDSYDdLcepKlkTTHILtKKWMvs5vULz33e2rH2wk/8AZejh2VB2KXaoXIVToPtIKzympJFQ43KURg6q6bkyBHDZERUTG5R1ESAeAj4XwcU9HC7NgN0LmTvFimNlmleqMk0ZgEpVecQxWPQhIWZOzxumRonyoFMYAADHAgAAiAceHW44gqXxvkLo+hVETXNbZy//2Q==">
 </head>
 <body>
     <div class="container">
-        <h1 class="my-4">Icons by Category</h1>
+        <h1 class="my-4">English Vocabulary with Icons</h1>
 
         <div class="category">
             <h2 class="category-title">Animals</h2>
@@ -55,6 +56,57 @@
                     </div>
                     <div class="text" style="display: none;"></div>
                 </div>
+                <!-- Add more icons as needed -->
+            </div>
+        </div>
+
+        <div class="category">
+            <h2 class="category-title">Time Expressions</h2>
+            <div class="icon-container">
+                <div class="icon-wrapper" data-text="day">
+                    <div class="icon icon-day"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="week">
+                    <div class="icon icon-week"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="two weeks / fortnight(UK)">
+                    <div class="icon icon-two_weeks"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="month">
+                    <div class="icon icon-month"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="weekend">
+                    <div class="icon icon-weekend"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+				<!--
+                <div class="icon-wrapper" data-text="This is a car icon.">
+                    <div class="icon icon-car"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="This is a bus icon.">
+                    <div class="icon icon-bus"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="This is a Font Awesome car icon.">
+                    <i class="fas fa-car icon"></i>
+                    <div class="text" style="display: none;"></div>
+                </div>
+				-->
+                <!-- New wrapper for bus stop with two icons -->
+				<!--
+                <div class="icon-wrapper" data-text="This is a bus stop.">
+                    <div class="icon-pair">
+                        <i class="fas fa-bus icon"></i>
+                        <i class="fas fa-stop icon"></i>
+                    </div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+				-->
                 <!-- Add more icons as needed -->
             </div>
         </div>
