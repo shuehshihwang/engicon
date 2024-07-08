@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vocabulary with Icons</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="time-expressions.css">
+    <link rel="stylesheet" href="pets_n_farm-animals.css">
+    <link rel="stylesheet" href="countries.css">
+    <link rel="stylesheet" href="daily-routines.css">
+    <link rel="stylesheet" href="transportation_n_travel.css">
+	<link rel="icon" type="image/png" href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAMCAgICAgMCAgIDAwMDBAYEBAQEBAgGBgUGCQgKCgkICQkKDA8MCgsOCwkJDRENDg8QEBEQCgwSExIQEw8QEBD/2wBDAQMDAwQDBAgEBAgQCwkLEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBD/wAARCAAgAB4DAREAAhEBAxEB/8QAGgABAAIDAQAAAAAAAAAAAAAACAUJAAQGB//EADcQAAAEBAMFBQQLAAAAAAAAAAECAwQFBgcRAAgSCRMhIkEVGTGV0xQWOFIYI1ZXYXV2pLG00f/EABkBAAMBAQEAAAAAAAAAAAAAAAIDBAUAAf/EACoRAAEDAwIEBQUAAAAAAAAAAAEAAgMEERIhgQUUMVETFTIzYSJBUnHB/9oADAMBAAIRAxEAPwBNZ4c6Uay4vIRJMhwVi9mOLNRfquH5THQaN9YkLYhRATnMYpvEbABet8X0VGKm7nHQJE03h6DqiJ3n+Zz5pT8pN6mNHyyH5U3MvWd5/mc+aU/KTepjvLIfldzL1YBkzrZNdfaJNZ9nVuxSivaLpiqLJMU0lATMGk2kRGw2NYePTGVWQtglxb0VUEhkbcoL7Vb4gYH+l0P7C+NLhftH9qer9QUBRZ9SlKmsHTmJ5l5JEAKpvizPDYmrEw+sNbfGS5BG1raeGm3XBziTM45bWshjxx1tuonMM8povT/dyo7oUo+9tRHTJsPiKMR0c1+Zfk3fhqAePhbBU+ef1Zb2sukxx0tsm7sw/heQ/P4h/JMZvE/f2T6X0box7T2DReYsy0sQKAw1zEIi+lxsi2atkhUVWUFyvYpShxEcWcMIbE4nv/EqqF3gBHn6KmZT7jpy8rU/zFnNQfkEnwn9lCThQqstP4MaYp3pjMUDhZFCJGdvmJ0kgObgUuoQtcemDZPFIcWuBK8Mbmi5CtU2c8pTHKGWSFN5lhS0PViUQdRNsmqAAY7ZXSKSlugGALh+AgPXGFxF4fPp9lbTAhmq1c22V+otSp3lWttEJmZwmeZTT3CZHg6U1kwMYxBKYSmADAJzgIGDSYDdLcepKlkTTHILtKKWMvs5vULz33e2rH2wk/8AZejh2VB2KXaoXIVToPtIKzympJFQ43KURg6q6bkyBHDZERUTG5R1ESAeAj4XwcU9HC7NgN0LmTvFimNlmleqMk0ZgEpVecQxWPQhIWZOzxumRonyoFMYAADHAgAAiAceHW44gqXxvkLo+hVETXNbZy//2Q==">
+</head>
+<body>
+    <div class="container">
+        <h1 class="my-4">Vocabulary with Icons</h1>
+		<p>Click icon to show / hide text. </p>
+        <div class="category">
+            <h2 class="category-title">Pets and farm animals</h2>
+            <div class="icon-container">
+				<!--
+                <div class="icon-wrapper" data-text="This is a dog icon.">
+                    <div class="icon icon-dog"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="This is a cat icon.">
+                    <div class="icon icon-cat"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="cat">
+                    <i class="fas fa-cat icon"></i>
+                    <div class="text" style="display: none;"></div>
+                </div>
+				-->
+                <div class="icon-wrapper" data-text="dog">
+                    <div class="icon icon-dog"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="cat">
+                    <div class="icon icon-cat"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="mouse">
+                    <div class="icon icon-mouse"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="sheep">
+                    <div class="icon icon-sheep"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="llama">
+                    <div class="icon icon-llama"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="rabbit">
+                    <div class="icon icon-rabbit"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="cow">
+                    <div class="icon icon-cow"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="goat">
+                    <div class="icon icon-goat"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="gecko">
+                    <div class="icon icon-gecko"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="bull">
+                    <div class="icon icon-bull"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="chicken">
+                    <div class="icon icon-chicken"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="turkey">
+                    <div class="icon icon-turkey"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="tortoise">
+                    <div class="icon icon-tortoise"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="pig">
+                    <div class="icon icon-pig"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="horse">
+                    <div class="icon icon-horse"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="paw">
+                    <i class="fas fa-paw icon"></i>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <!-- Add more icons as needed -->
+            </div>
+        </div>
+
+        <div class="category">
+            <h2 class="category-title">Transportation</h2>
+            <div class="icon-container">
+				<!--
+                <div class="icon-wrapper" data-text="car">
+                    <div class="icon icon-car"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="bus">
+                    <div class="icon icon-bus"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+				-->
+                <div class="icon-wrapper" data-text="bus">
+                    <i class="fas fa-bus icon"></i>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="car">
+                    <i class="fas fa-car icon"></i>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="motorcycle">
+                    <i class="fas fa-motorcycle icon"></i>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="bicycle">
+                    <i class="fas fa-bicycle icon"></i>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <!-- New wrapper for bus stop with two icons -->
+                <div class="icon-wrapper" data-text="bus stop">
+                    <div class="icon-pair">
+                        <i class="fas fa-bus icon"></i>
+                        <i class="fas fa-plus icon"></i>
+                        <i class="fas fa-person icon"></i>
+                    </div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <!-- Add more icons as needed -->
+            </div>
+        </div>
+
+        <div class="category">
+            <h2 class="category-title">Time Expressions</h2>
+            <div class="icon-container">
+                <div class="icon-wrapper" data-text="day">
+                    <div class="icon icon-day"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="week">
+                    <div class="icon icon-week"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="two weeks / fortnight(UK)">
+                    <div class="icon icon-two_weeks"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="month">
+                    <div class="icon icon-month"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="weekend">
+                    <div class="icon icon-weekend"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+            </div>
+        </div>
+        <div class="category">
+            <h2 class="category-title">GETTING STARTED</h2>
+            <h3 class="category-title">Countries</h3>
+			<div class="icon-container" style="display: none;">
+                <div class="icon-wrapper" data-text="Japan">
+                    <div class="icon icon-Japan"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="United State of America / US">
+                    <div class="icon icon-United_States"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="Taiwan">
+                    <div class="icon icon-Taiwan"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="Russia">
+                    <div class="icon icon-Russia"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+            </div>
+        </div>
+        <div class="category">
+            <h2 class="category-title">GETTING STARTED</h2>
+            <h3 class="category-title">Countries and nationalities</h3>
+			<div class="icon-container" style="display: none;">
+                <div class="icon-wrapper" data-text="Japan">
+                    <div class="icon icon-Japan"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="United State of America / US">
+                    <div class="icon icon-United_States"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="Taiwan">
+                    <div class="icon icon-Taiwan"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="Russia">
+                    <div class="icon icon-Russia"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+            </div>
+            <h3 class="category-title">Numbers</h3>
+			<div class="icon-container" style="">
+                <div class="icon-wrapper" data-text="zero">
+                    <div class="icon-pair">
+                        <div class="icon-text">0</div>
+                    </div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="One">
+                    <div class="icon-pair">
+                        <div class="icon-text">1</div>
+                    </div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="Two">
+                    <div class="icon-pair">
+                        <div class="icon-text">2</div>
+                    </div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="Three">
+                    <div class="icon-pair">
+                        <div class="icon-text">3</div>
+                    </div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="Four">
+                    <div class="icon-pair">
+                        <div class="icon-text">4</div>
+                    </div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="Five">
+                    <div class="icon-pair">
+                        <div class="icon-text">5</div>
+                    </div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="Six">
+                    <div class="icon-pair">
+                        <div class="icon-text">6</div>
+                    </div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="Seven">
+                    <div class="icon-pair">
+                        <div class="icon-text">7</div>
+                    </div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="Eight">
+                    <div class="icon-pair">
+                        <div class="icon-text">8</div>
+                    </div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="Nine">
+                    <div class="icon-pair">
+                        <div class="icon-text">9</div>
+                    </div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="Ten">
+                    <div class="icon-pair">
+                        <div class="icon-text">10</div>
+                    </div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="Eleven">
+                    <div class="icon-pair">
+                        <div class="icon-text">11</div>
+                    </div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="Twelve">
+                    <div class="icon-pair">
+                        <div class="icon-text">12</div>
+                    </div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="Thirteen">
+                    <div class="icon-pair">
+                        <div class="icon-text">13</div>
+                    </div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="Fourteen">
+                    <div class="icon-pair">
+                        <div class="icon-text">14</div>
+                    </div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="Fifteen">
+                    <div class="icon-pair">
+                        <div class="icon-text">15</div>
+                    </div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="Sixteen">
+                    <div class="icon-pair">
+                        <div class="icon-text">16</div>
+                    </div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="Seventeen">
+                    <div class="icon-pair">
+                        <div class="icon-text">17</div>
+                    </div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="Eighteen">
+                    <div class="icon-pair">
+                        <div class="icon-text">18</div>
+                    </div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="Nineteen">
+                    <div class="icon-pair">
+                        <div class="icon-text">19</div>
+                    </div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="Twenty">
+                    <div class="icon-pair">
+                        <div class="icon-text">20</div>
+                    </div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="Twenty-one">
+                    <div class="icon-pair">
+                        <div class="icon-text">21</div>
+                    </div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="Twenty-two">
+                    <div class="icon-pair">
+                        <div class="icon-text">22</div>
+                    </div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="Thirty">
+                    <div class="icon-pair">
+                        <div class="icon-text">30</div>
+                    </div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="Forty">
+                    <div class="icon-pair">
+                        <div class="icon-text">40</div>
+                    </div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="Fifty">
+                    <div class="icon-pair">
+                        <div class="icon-text">50</div>
+                    </div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="Sixty">
+                    <div class="icon-pair">
+                        <div class="icon-text">60</div>
+                    </div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="Seventy">
+                    <div class="icon-pair">
+                        <div class="icon-text">70</div>
+                    </div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="Eighty">
+                    <div class="icon-pair">
+                        <div class="icon-text">80</div>
+                    </div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="Ninety">
+                    <div class="icon-pair">
+                        <div class="icon-text">90</div>
+                    </div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="One hundred">
+                    <div class="icon-pair">
+                        <div class="icon-text">100</div>
+                    </div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+            </div>
+            <h3 class="category-title">Time expressions</h3>
+			<div class="icon-container" style="">
+                <div class="icon-wrapper" data-text="day">
+                    <div class="icon icon-day"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="week">
+                    <div class="icon icon-week"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="two weeks / fortnight(UK)">
+                    <div class="icon icon-two_weeks"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="month">
+                    <div class="icon icon-month"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="weekend">
+                    <div class="icon icon-weekend"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+            </div>
+            <h3 class="category-title">Daily routines</h3>
+			<div class="icon-container" style="">
+                <div class="icon-wrapper" data-text="alarm goes off">
+                    <div class="icon icon-alarm_goes_off"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="to wake up">
+                    <div class="icon icon-to_wake_up"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="to get_up">
+                    <div class="icon icon-to_get_up"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="to take a shower">
+                    <div class="icon icon-to_take_a_shower"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="to take a bath">
+                    <div class="icon icon-to_take_a_bath"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="to put on make-up">
+                    <div class="icon icon-to_put_on_make-up"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="to shave">
+                    <div class="icon icon-to_shave"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="to wash your hair">
+                    <div class="icon icon-to_wash_your_hair"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="to dry your hair">
+                    <div class="icon icon-to_dry_your_hair"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="to iron a shirt">
+                    <div class="icon icon-to_iron_a_shirt"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+            </div>
+            <h3 class="category-title">Describing things: facts</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+            <h3 class="category-title">Describing things: opinions</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+            <h3 class="category-title">Sharing information</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+            <h3 class="category-title">Common English idioms</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+        </div>
+        <div class="category">
+            <h2 class="category-title">HOME</h2>
+            <h3 class="category-title">Around the house</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+            <h3 class="category-title">Kitchen implements and toiletries</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+            <h3 class="category-title">Chores and cleaning</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+            <h3 class="category-title">Tools and gardening</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+            <h3 class="category-title">Moving and renting</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+        </div>
+        <div class="category">
+            <h2 class="category-title">PEOPLE</h2>
+            <h3 class="category-title">The body</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+            <h3 class="category-title">Clothes</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+            <h3 class="category-title">Accessories and beauty products</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+            <h3 class="category-title">Appearance</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+            <h3 class="category-title">Personality traits</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+            <h3 class="category-title">Feelings and moods</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+            <h3 class="category-title">Family tree</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+            <h3 class="category-title">Family and relationships</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+            <h3 class="category-title">Baby equipment and toys</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+            <h3 class="category-title">Education</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+            <h3 class="category-title">Studying</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+            <h3 class="category-title">Speaking a foreign language</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+            <h3 class="category-title">Communication and beliefs</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+            <h3 class="category-title">Crime and the law</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+        </div>
+        <div class="category">
+            <h2 class="category-title">FOOD AND DRINK</h2>
+            <h3 class="category-title">Meat, fish, dairy, and snacks</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+            <h3 class="category-title">Fruit and nuts</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+            <h3 class="category-title">Vegetables</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+            <h3 class="category-title">Bread, desserts, and condiments</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+            <h3 class="category-title">Drinking and eating</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+            <h3 class="category-title">Eating in and eating out</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+        </div>
+        <div class="category">
+            <h2 class="category-title">WORK</h2>
+            <h3 class="category-title">Jobs</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+            <h3 class="category-title">Working conditions</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+            <h3 class="category-title">Industries and departments</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+            <h3 class="category-title">Office equipment</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+            <h3 class="category-title">Money and finance</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+            <h3 class="category-title">Working</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+            <h3 class="category-title">Meeting and presenting</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+            <h3 class="category-title">Work and business idioms</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+            <h3 class="category-title">Applying for a job</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+            <h3 class="category-title">Workplace skills and abilities</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+        </div>
+        <div class="category">
+            <h2 class="category-title">TRAVEL</h2>
+            <h3 class="category-title">Transportation and travel</h3>
+			<div class="icon-container" style="">
+                <div class="icon-wrapper" data-text="car">
+                    <div class="icon icon-car"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="taxi">
+                    <div class="icon icon-taxi"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="bus">
+                    <div class="icon icon-bus"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="coach">
+                    <div class="icon icon-coach"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="train">
+                    <div class="icon icon-train"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="tram">
+                    <div class="icon icon-tram"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="motorcle">
+                    <div class="icon icon-motorcle"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+            </div>
+            <h3 class="category-title">Driving a car</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+            <h3 class="category-title">Maps and directions</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+            <h3 class="category-title">Travel and accommodation</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+            <h3 class="category-title">Travel and tourism</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+            <h3 class="category-title">Camping and cycling</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+            <h3 class="category-title">Beach</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+        </div>
+        <div class="category">
+            <h2 class="category-title">THE ENVIRONMENT</h2>
+            <h3 class="category-title">Weather and climate</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+            <h3 class="category-title">Geographical features</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+            <h3 class="category-title">Environmental concerns</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+        </div>
+        <div class="category">
+            <h2 class="category-title">ANIMALS</h2>
+            <h3 class="category-title">Pets and farm animals</h3>
+			<div class="icon-container" style="">
+                <div class="icon-wrapper" data-text="dog">
+                    <div class="icon icon-dog"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="cat">
+                    <div class="icon icon-cat"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="mouse">
+                    <div class="icon icon-mouse"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="sheep">
+                    <div class="icon icon-sheep"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="llama">
+                    <div class="icon icon-llama"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="rabbit">
+                    <div class="icon icon-rabbit"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="cow">
+                    <div class="icon icon-cow"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="goat">
+                    <div class="icon icon-goat"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="gecko">
+                    <div class="icon icon-gecko"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="bull">
+                    <div class="icon icon-bull"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="chicken">
+                    <div class="icon icon-chicken"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="turkey">
+                    <div class="icon icon-turkey"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="tortoise">
+                    <div class="icon icon-tortoise"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="pig">
+                    <div class="icon icon-pig"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+                <div class="icon-wrapper" data-text="horse">
+                    <div class="icon icon-horse"></div>
+                    <div class="text" style="display: none;"></div>
+                </div>
+            </div>
+            <h3 class="category-title">Wild animals</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+            <h3 class="category-title">Birds and bugs</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+            <h3 class="category-title">Fish, whales, and sea creatures</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+        </div>
+        <div class="category">
+            <h2 class="category-title">ACTIVITIES</h2>
+            <h3 class="category-title">Free time activities</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+            <h3 class="category-title">Abilities and actions</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+            <h3 class="category-title">Sports</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+            <h3 class="category-title">Soccer</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+            <h3 class="category-title">Sports equipment and venues</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+        </div>
+        <div class="category">
+            <h2 class="category-title">ARTS AND THE MEDIA</h2>
+            <h3 class="category-title">Books and reading</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+            <h3 class="category-title">Music</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+            <h3 class="category-title">Movies and plays</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+            <h3 class="category-title">TV</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+            <h3 class="category-title">Media and celebrity</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+        </div>
+        <div class="category">
+            <h2 class="category-title">HEALTH</h2>
+            <h3 class="category-title">Sickness</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+            <h3 class="category-title">Medicine and treatment</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+            <h3 class="category-title">Healthy eating</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+            <h3 class="category-title">Fitness and well-being</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+        </div>
+        <div class="category">
+            <h2 class="category-title">AROUND TOWN</h2>
+            <h3 class="category-title">Around town</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+            <h3 class="category-title">Shopping</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+            <h3 class="category-title">At the supermarket</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+            <h3 class="category-title">Urban life</h3>
+			<div class="icon-container" style="display: none;">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Add event listeners to all icon wrappers
+        document.querySelectorAll('.icon-wrapper').forEach(wrapper => {
+            wrapper.addEventListener('click', function() {
+                const textElement = this.querySelector('.text');
+                if (textElement.style.display === 'none') {
+                    textElement.style.display = 'block';
+                    textElement.textContent = this.getAttribute('data-text');
+                } else {
+                    textElement.style.display = 'none';
+                }
+            });
+        });
+        // Add event listeners to all category titles to toggle content visibility
+        document.querySelectorAll('h3.category-title').forEach(title => {
+            title.addEventListener('click', function() {
+                const iconContainer = this.nextElementSibling;
+                if (iconContainer.style.display === 'none') {
+                    iconContainer.style.display = 'flex';
+                } else {
+                    iconContainer.style.display = 'none';
+                }
+            });
+        });
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
