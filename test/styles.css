@@ -45,6 +45,18 @@ body {
     background-image: url('daily-routine-2.jpg');
 }
 
+.image-describing-things-facts-1 {
+    background-image: url('describing-things-facts-1.jpg');
+}
+
+.image-describing-things-facts-2 {
+    background-image: url('describing-things-facts-2.jpg');
+}
+
+.image-describing-things-facts-3 {
+    background-image: url('describing-things-facts-3.jpg');
+}
+
 .text-area {
     /* width: 100%; */
 	/* width: 337px; */
@@ -77,6 +89,14 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 	 */
 }
+
+.image-title {
+    width: 56.25%; 
+	margin-left: 22%; 
+    max-width: 600px;
+    white-space: pre-wrap; /* Preserve whitespace and line breaks */
+}
+
 /* Media queries for responsive font size */
 @media (max-width: 1200px) {
     body {
