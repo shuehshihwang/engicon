@@ -29,6 +29,10 @@ body {
     background-image: url('furniture.png');
 }
 
+.image-bathroom {
+    background-image: url('bathroom.png');
+}
+
 .image-family {
     background-image: url('family.png');
 }
@@ -55,6 +59,10 @@ body {
 
 .image-describing-things-facts-3 {
     background-image: url('describing-things-facts-3.jpg');
+}
+
+.image-aircraft {
+    background-image: url('aircraft.jpg');
 }
 
 .text-area {
