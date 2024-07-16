@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Toggle Flash Cards</title>
+    <style>
+        .image-container {
+            width: 100%;
+            max-width: 600px;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        img {
+            width: 100%;
+            cursor: pointer;
+        }
+
+        h1 {
+            margin: 15px 0;
+        }
+
+        h3 {
+            margin: 10px 0;
+        }
+
+        @media (max-width: 768px) {
+            .image-container {
+                max-width: 90%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .image-container {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <h1>Image Toggle Flash Cards</h1>
+    </div>
+    <div class="image-container">
+        <h3>Daily routine 1</h3>
+        <img class="toggleImage" src="daily-routine-1.jpg" alt="Question 1 Image" data-question="daily-routine-1.jpg" data-answer="daily-routine-1.png">
+    </div>
+    <div class="image-container">
+        <h3>Daily routine 2</h3>
+        <img class="toggleImage" src="daily-routine-2.jpg" alt="Question 2 Image" data-question="daily-routine-2.jpg" data-answer="daily-routine-2.png">
+    </div>
+    <div class="image-container">
+        <h3>Describing things: facts - Adjectives</h3>
+        <img class="toggleImage" src="describing-things-facts-1.jpg" alt="Question 1 Image" data-question="describing-things-facts-1.jpg" data-answer="describing-things-facts-1.png">
+    </div>
+    <div class="image-container">
+        <h3>Describing things: facts - Colors</h3>
+        <img class="toggleImage" src="describing-things-facts-2.jpg" alt="Question 2 Image" data-question="describing-things-facts-2.jpg" data-answer="describing-things-facts-2.png">
+    </div>
+    <div class="image-container">
+        <h3>Describing things: facts - Materials</h3>
+        <img class="toggleImage" src="describing-things-facts-3.jpg" alt="Question 3 Image" data-question="describing-things-facts-3.jpg" data-answer="describing-things-facts-3.png">
+    </div>
+    <div class="image-container">
+        <h3>Describing things: facts - Materials</h3>
+        <img class="toggleImage" src="prepositions-movement.jpg" alt="Question 3 Image" data-question="prepositions-movement.jpg" data-answer="englishclub-poster-prepositions-movement-A3.jpg">
+    </div>
+
+
+    <script>
+        const toggleImages = document.querySelectorAll('.toggleImage');
+
+        toggleImages.forEach(img => {
+            img.addEventListener('click', () => {
+                const questionImage = img.getAttribute('data-question');
+                const answerImage = img.getAttribute('data-answer');
+                if (img.src.includes(questionImage)) {
+                    img.src = answerImage;
+                } else {
+                    img.src = questionImage;
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+
